@@ -1,0 +1,199 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Roboto Mono";
+    
+}
+
+header {
+    background-color: rgba(184, 32, 32, 0.5);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    width: 95%;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    cursor: pointer;
+    font-size: 1.125rem;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 0 5px;
+    border-radius: 10px;
+    color: white;
+   
+}
+
+.title h2 {
+    font-family: "Roboto Mono";
+    font-weight: 100;
+    color: white;
+    font-size: 3rem;
+    text-align: left;
+    width: 250px;
+    background-color: rgba(184, 32, 32, 0.5);
+    margin-top: 200px;
+}
+ body {
+     
+     background-image: url("/alexander-redl-d3bYmnZ0ank-unsplash.jpg");
+     background-repeat: no-repeat;
+     background-position: bottom;
+     background-size: cover;
+     min-height: 100%;
+     width: auto;
+     background-attachment: fixed;
+    
+ }
+
+ .container {
+     display: flex;
+     
+     width: 100%;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items:flex-start;
+     margin-top: 200px;
+    
+     
+     
+     
+ }
+
+ .cont {
+     max-width: 250px;
+     background-color: rgba(184, 32, 32, 0.5);
+     text-align: center;
+     margin-bottom: 10%;
+     height: 100%;
+     align-self:flex-start;
+     
+    
+ }
+
+ .container h4 {
+     font-weight: 100;
+     color: white;
+     padding: 0 10px;
+ }
+ .container h3 {
+     color: white;
+ }
+ .imgcont {
+     width: 100%;
+     margin:0 auto;
+    
+     
+ }
+
+ img {
+     height: 100%;
+     width: 100%;
+ }
+ .footer {
+    background-color: rgba(184, 32, 32, 0.5);
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    color:white;
+    display: flex;
+    width: 98%;
+    padding: 0 10px;
+    
+    
+ }
+
+ .footer .copy {
+     flex: 1;
+     font-weight: 100;
+ }
+ .footer .created {
+     justify-content: right;
+     font-weight: 100;
+ }
+ @media only screen and (max-width: 600px) {
+    .nav ul {
+        display: block;
+        padding-left: 5px;
+        position:fixed;
+        top: 4.3rem;
+        
+    }
+    .nav a {
+        color: black;
+    }
+    .container {
+        justify-content: end;
+        
+    }
+    .cont {
+        width: 310px;
+        max-width: 310px;
+    }
+    header {
+        background-color: transparent;
+    }
+    .title h2 {
+        font-family: "Roboto Mono";
+        font-weight: 100;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+        background-color: rgba(184, 32, 32, 0.5);
+        margin-top: 0px;
+        position: fixed;
+        top: 0px;
+    }
+   
+}
+@media only screen and (max-width: 450px) {
+    .nav ul {
+        display: flex;
+        padding-left: 5px;
+        position:fixed;
+        top: 2.25rem;
+        text-align: center;
+        background-color: rgba(0, 0, 0, .5);
+        
+        
+    }
+    .nav a {
+        color: white;
+    }
+    .container {
+        display: flex;
+        
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:flex-start;
+        margin-top: 200px;
+       
+        
+        
+        
+    }
+    
+}
+@media only screen and (max-width: 384px) {
+    .title h2 {
+        font-size: 1.5rem;
+    }
+}
